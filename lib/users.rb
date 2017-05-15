@@ -6,6 +6,7 @@ class User
 	property :email,		String
 	property :address,		String
 	property :phone,		String
+	property :avatar_link,	String
 	property :password_hash,String
 	property :is_active,	Boolean
 	property :created_at,	DateTime
